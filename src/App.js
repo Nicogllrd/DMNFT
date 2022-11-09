@@ -94,8 +94,7 @@ function App() {
 
   return (
     <div className='main-app'>
-      <h1>CRAZY DOG CD7 MINT NOW</h1>
-      <h2>TP ECE </h2>
+      <h1>Centre de minage de NFT</h1>
       <div>
         {currentAccount ? mintNftButton() : connectWalletButton()}
       </div>
